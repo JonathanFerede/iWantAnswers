@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59FB29E1CC0D412006CCE53 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FB29D1CC0D412006CCE53 /* Chat.swift */; };
+		F5CDCEE71CA9323B005636A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */; };
+		F5CDCEEC1CA9323C005636A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDCEEA1CA9323C005636A2 /* Main.storyboard */; };
+		F5CDCEEE1CA9323C005636A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDCEED1CA9323C005636A2 /* Assets.xcassets */; };
+		F5CDCEF11CA9323C005636A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDCEEF1CA9323C005636A2 /* LaunchScreen.storyboard */; };
+		F5CDCEFC1CA9323C005636A2 /* JsonDeruloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCEFB1CA9323C005636A2 /* JsonDeruloTests.swift */; };
+		F5CDCF071CA9323C005636A2 /* JsonDeruloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF061CA9323C005636A2 /* JsonDeruloUITests.swift */; };
+		F5CDCF171CA93427005636A2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF161CA93427005636A2 /* TableViewController.swift */; };
+		F5CDCF191CA9348B005636A2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF181CA9348B005636A2 /* DetailsViewController.swift */; };
+		F5CDCF1B1CA934F7005636A2 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF1A1CA934F7005636A2 /* Pirate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CDCEF81CA9323C005636A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDCEDB1CA9323B005636A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDCEE21CA9323B005636A2;
+			remoteInfo = JsonDerulo;
+		};
+		F5CDCF031CA9323C005636A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDCEDB1CA9323B005636A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDCEE21CA9323B005636A2;
+			remoteInfo = JsonDerulo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59FB29D1CC0D412006CCE53 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		F5CDCEE31CA9323B005636A2 /* JsonDerulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonDerulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5CDCEEB1CA9323C005636A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CDCEED1CA9323C005636A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CDCEF01CA9323C005636A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CDCEF21CA9323C005636A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDCEF71CA9323C005636A2 /* JsonDeruloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDeruloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDCEFB1CA9323C005636A2 /* JsonDeruloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDeruloTests.swift; sourceTree = "<group>"; };
+		F5CDCEFD1CA9323C005636A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDCF021CA9323C005636A2 /* JsonDeruloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonDeruloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDCF061CA9323C005636A2 /* JsonDeruloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDeruloUITests.swift; sourceTree = "<group>"; };
+		F5CDCF081CA9323C005636A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDCF161CA93427005636A2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F5CDCF181CA9348B005636A2 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F5CDCF1A1CA934F7005636A2 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CDCEE01CA9323B005636A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCEF41CA9323C005636A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCEFF1CA9323C005636A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CDCEDA1CA9323B005636A2 = {
+			isa = PBXGroup;
+			children = (
+				F5CDCEE51CA9323B005636A2 /* JsonDerulo */,
+				F5CDCEFA1CA9323C005636A2 /* JsonDeruloTests */,
+				F5CDCF051CA9323C005636A2 /* JsonDeruloUITests */,
+				F5CDCEE41CA9323B005636A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CDCEE41CA9323B005636A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDCEE31CA9323B005636A2 /* JsonDerulo.app */,
+				F5CDCEF71CA9323C005636A2 /* JsonDeruloTests.xctest */,
+				F5CDCF021CA9323C005636A2 /* JsonDeruloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CDCEE51CA9323B005636A2 /* JsonDerulo */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDCF181CA9348B005636A2 /* DetailsViewController.swift */,
+				F5CDCF161CA93427005636A2 /* TableViewController.swift */,
+				F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */,
+				F5CDCEEA1CA9323C005636A2 /* Main.storyboard */,
+				F5CDCF1A1CA934F7005636A2 /* Pirate.swift */,
+				F5CDCEED1CA9323C005636A2 /* Assets.xcassets */,
+				F5CDCEEF1CA9323C005636A2 /* LaunchScreen.storyboard */,
+				F5CDCEF21CA9323C005636A2 /* Info.plist */,
+				F59FB29D1CC0D412006CCE53 /* Chat.swift */,
+			);
+			path = JsonDerulo;
+			sourceTree = "<group>";
+		};
+		F5CDCEFA1CA9323C005636A2 /* JsonDeruloTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDCEFB1CA9323C005636A2 /* JsonDeruloTests.swift */,
+				F5CDCEFD1CA9323C005636A2 /* Info.plist */,
+			);
+			path = JsonDeruloTests;
+			sourceTree = "<group>";
+		};
+		F5CDCF051CA9323C005636A2 /* JsonDeruloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDCF061CA9323C005636A2 /* JsonDeruloUITests.swift */,
+				F5CDCF081CA9323C005636A2 /* Info.plist */,
+			);
+			path = JsonDeruloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CDCEE21CA9323B005636A2 /* JsonDerulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDCF0B1CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDerulo" */;
+			buildPhases = (
+				F5CDCEDF1CA9323B005636A2 /* Sources */,
+				F5CDCEE01CA9323B005636A2 /* Frameworks */,
+				F5CDCEE11CA9323B005636A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonDerulo;
+			productName = JsonDerulo;
+			productReference = F5CDCEE31CA9323B005636A2 /* JsonDerulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CDCEF61CA9323C005636A2 /* JsonDeruloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDCF0E1CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDeruloTests" */;
+			buildPhases = (
+				F5CDCEF31CA9323C005636A2 /* Sources */,
+				F5CDCEF41CA9323C005636A2 /* Frameworks */,
+				F5CDCEF51CA9323C005636A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDCEF91CA9323C005636A2 /* PBXTargetDependency */,
+			);
+			name = JsonDeruloTests;
+			productName = JsonDeruloTests;
+			productReference = F5CDCEF71CA9323C005636A2 /* JsonDeruloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5CDCF011CA9323C005636A2 /* JsonDeruloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDCF111CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDeruloUITests" */;
+			buildPhases = (
+				F5CDCEFE1CA9323C005636A2 /* Sources */,
+				F5CDCEFF1CA9323C005636A2 /* Frameworks */,
+				F5CDCF001CA9323C005636A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDCF041CA9323C005636A2 /* PBXTargetDependency */,
+			);
+			name = JsonDeruloUITests;
+			productName = JsonDeruloUITests;
+			productReference = F5CDCF021CA9323C005636A2 /* JsonDeruloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CDCEDB1CA9323B005636A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5CDCEE21CA9323B005636A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F5CDCEF61CA9323C005636A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5CDCEE21CA9323B005636A2;
+					};
+					F5CDCF011CA9323C005636A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5CDCEE21CA9323B005636A2;
+					};
+				};
+			};
+			buildConfigurationList = F5CDCEDE1CA9323B005636A2 /* Build configuration list for PBXProject "JsonDerulo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CDCEDA1CA9323B005636A2;
+			productRefGroup = F5CDCEE41CA9323B005636A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CDCEE21CA9323B005636A2 /* JsonDerulo */,
+				F5CDCEF61CA9323C005636A2 /* JsonDeruloTests */,
+				F5CDCF011CA9323C005636A2 /* JsonDeruloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CDCEE11CA9323B005636A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDCEF11CA9323C005636A2 /* LaunchScreen.storyboard in Resources */,
+				F5CDCEEE1CA9323C005636A2 /* Assets.xcassets in Resources */,
+				F5CDCEEC1CA9323C005636A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCEF51CA9323C005636A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCF001CA9323C005636A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CDCEDF1CA9323B005636A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDCF1B1CA934F7005636A2 /* Pirate.swift in Sources */,
+				F5CDCEE71CA9323B005636A2 /* AppDelegate.swift in Sources */,
+				F5CDCF171CA93427005636A2 /* TableViewController.swift in Sources */,
+				F59FB29E1CC0D412006CCE53 /* Chat.swift in Sources */,
+				F5CDCF191CA9348B005636A2 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCEF31CA9323C005636A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDCEFC1CA9323C005636A2 /* JsonDeruloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDCEFE1CA9323C005636A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDCF071CA9323C005636A2 /* JsonDeruloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CDCEF91CA9323C005636A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDCEE21CA9323B005636A2 /* JsonDerulo */;
+			targetProxy = F5CDCEF81CA9323C005636A2 /* PBXContainerItemProxy */;
+		};
+		F5CDCF041CA9323C005636A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDCEE21CA9323B005636A2 /* JsonDerulo */;
+			targetProxy = F5CDCF031CA9323C005636A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CDCEEA1CA9323C005636A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDCEEB1CA9323C005636A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CDCEEF1CA9323C005636A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDCEF01CA9323C005636A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CDCF091CA9323C005636A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CDCF0A1CA9323C005636A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CDCF0C1CA9323C005636A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JsonDerulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDerulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CDCF0D1CA9323C005636A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JsonDerulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDerulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5CDCF0F1CA9323C005636A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JsonDeruloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDeruloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonDerulo.app/JsonDerulo";
+			};
+			name = Debug;
+		};
+		F5CDCF101CA9323C005636A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JsonDeruloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDeruloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonDerulo.app/JsonDerulo";
+			};
+			name = Release;
+		};
+		F5CDCF121CA9323C005636A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JsonDeruloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDeruloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonDerulo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5CDCF131CA9323C005636A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JsonDeruloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDeruloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonDerulo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CDCEDE1CA9323B005636A2 /* Build configuration list for PBXProject "JsonDerulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDCF091CA9323C005636A2 /* Debug */,
+				F5CDCF0A1CA9323C005636A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDCF0B1CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDerulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDCF0C1CA9323C005636A2 /* Debug */,
+				F5CDCF0D1CA9323C005636A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDCF0E1CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDeruloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDCF0F1CA9323C005636A2 /* Debug */,
+				F5CDCF101CA9323C005636A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDCF111CA9323C005636A2 /* Build configuration list for PBXNativeTarget "JsonDeruloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDCF121CA9323C005636A2 /* Debug */,
+				F5CDCF131CA9323C005636A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CDCEDB1CA9323B005636A2 /* Project object */;
+}
