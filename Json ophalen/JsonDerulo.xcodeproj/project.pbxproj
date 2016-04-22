@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51A50171CC91D90005F77E1 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A50161CC91D90005F77E1 /* message.swift */; };
+		F51A50191CC91E70005F77E1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A50181CC91E70005F77E1 /* Contact.swift */; };
 		F59FB29E1CC0D412006CCE53 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59FB29D1CC0D412006CCE53 /* Chat.swift */; };
+		F5CAB0821CCA01E9002EFA86 /* chats.json in Resources */ = {isa = PBXBuildFile; fileRef = F5CAB0811CCA01E9002EFA86 /* chats.json */; };
 		F5CDCEE71CA9323B005636A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */; };
 		F5CDCEEC1CA9323C005636A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDCEEA1CA9323C005636A2 /* Main.storyboard */; };
 		F5CDCEEE1CA9323C005636A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDCEED1CA9323C005636A2 /* Assets.xcassets */; };
@@ -16,7 +19,6 @@
 		F5CDCF071CA9323C005636A2 /* JsonDeruloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF061CA9323C005636A2 /* JsonDeruloUITests.swift */; };
 		F5CDCF171CA93427005636A2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF161CA93427005636A2 /* TableViewController.swift */; };
 		F5CDCF191CA9348B005636A2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF181CA9348B005636A2 /* DetailsViewController.swift */; };
-		F5CDCF1B1CA934F7005636A2 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CDCF1A1CA934F7005636A2 /* Pirate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51A50161CC91D90005F77E1 /* message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
+		F51A50181CC91E70005F77E1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		F59FB29D1CC0D412006CCE53 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		F5CAB0811CCA01E9002EFA86 /* chats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = chats.json; path = ../chats.json; sourceTree = "<group>"; };
 		F5CDCEE31CA9323B005636A2 /* JsonDerulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonDerulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5CDCEEB1CA9323C005636A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +57,6 @@
 		F5CDCF081CA9323C005636A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5CDCF161CA93427005636A2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F5CDCF181CA9348B005636A2 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		F5CDCF1A1CA934F7005636A2 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +111,13 @@
 				F5CDCF161CA93427005636A2 /* TableViewController.swift */,
 				F5CDCEE61CA9323B005636A2 /* AppDelegate.swift */,
 				F5CDCEEA1CA9323C005636A2 /* Main.storyboard */,
-				F5CDCF1A1CA934F7005636A2 /* Pirate.swift */,
+				F59FB29D1CC0D412006CCE53 /* Chat.swift */,
+				F51A50161CC91D90005F77E1 /* message.swift */,
+				F51A50181CC91E70005F77E1 /* Contact.swift */,
+				F5CAB0811CCA01E9002EFA86 /* chats.json */,
 				F5CDCEED1CA9323C005636A2 /* Assets.xcassets */,
 				F5CDCEEF1CA9323C005636A2 /* LaunchScreen.storyboard */,
 				F5CDCEF21CA9323C005636A2 /* Info.plist */,
-				F59FB29D1CC0D412006CCE53 /* Chat.swift */,
 			);
 			path = JsonDerulo;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 				TargetAttributes = {
 					F5CDCEE21CA9323B005636A2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = XR39S7R8EN;
 					};
 					F5CDCEF61CA9323C005636A2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -239,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5CDCEF11CA9323C005636A2 /* LaunchScreen.storyboard in Resources */,
+				F5CAB0821CCA01E9002EFA86 /* chats.json in Resources */,
 				F5CDCEEE1CA9323C005636A2 /* Assets.xcassets in Resources */,
 				F5CDCEEC1CA9323C005636A2 /* Main.storyboard in Resources */,
 			);
@@ -265,11 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5CDCF1B1CA934F7005636A2 /* Pirate.swift in Sources */,
 				F5CDCEE71CA9323B005636A2 /* AppDelegate.swift in Sources */,
 				F5CDCF171CA93427005636A2 /* TableViewController.swift in Sources */,
 				F59FB29E1CC0D412006CCE53 /* Chat.swift in Sources */,
 				F5CDCF191CA9348B005636A2 /* DetailsViewController.swift in Sources */,
+				F51A50171CC91D90005F77E1 /* message.swift in Sources */,
+				F51A50191CC91E70005F77E1 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JsonDerulo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDerulo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -420,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JsonDerulo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonathan.JsonDerulo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

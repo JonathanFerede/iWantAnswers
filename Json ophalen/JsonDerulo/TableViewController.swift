@@ -16,6 +16,7 @@ class TableViewController: UITableViewController {
     
     func loadJsonData()
     {
+        //let url = NSURL(string: "JsonDerulo/chats.json")
         let url = NSURL(string: "http://i323074.iris.fhict.nl/instamemo/chats.json")
         let request = NSURLRequest(URL: url!)
         let session = NSURLSession.sharedSession()
@@ -39,21 +40,45 @@ class TableViewController: UITableViewController {
     {
         if let jsonData = jsonObject as? NSArray
         {
-            for item in jsonData
+            //Haal alle chats uit de Json file
+            for chat in jsonData
             {
+                print(chat)
                 
-                let l = item.objectForKey("leden")
-                let m = item.objectForKey("messages")
+                //pak alle variabelen uit de eerste dementie
+                let onderwerp = chat.objectForKey("onderwerp") as! String
+                let destruct = chat.objectForKey("destruct") as! String
+                let ledenArray = chat.objectForKey("leden") as? NSArray
+                let messagesArray = chat.objectForKey("messages") as? NSArray
                 
+                //de tweede dimentie
+                var leden = [Contact]()
+                var messages = [Message]()
                 
+                //haal alle contacten uit de leden array en maak er een Contact object van en zet die in de leden array
+                for contact in ledenArray!
+                {
+                    let newContact = Contact(id: contact["contactID"] as! Int, name: contact["naam"] as! String, profilepic: contact["profilepic"] as! String)
+                    leden.append(newContact)
+                }
                 
+                //haal alle contacten uit de messagesArray en maak er een Message object van en zet die in de messages array
+                for message in messagesArray!
+                {
+                    let newMessage = Message(text: message["text"] as! String, sender: message["sender"] as! String, timestamp: message["timestamp"] as! String)
+                    messages.append(newMessage)
+                }
+                
+                //Maak van alles nu een chat object
                 let newChat = Chat(
-                    onderwerp: item.objectForKey("onderwerp") as! String,
-                    destruct: item.objectForKey("destruct")as! String,
-                    leden: l!,
-                    messages: m!
+                    onderwerp: onderwerp,
+                    destruct: destruct,
+                    leden: leden,
+                    messages: messages
                 )
+                //en voeg hem to aan de chats array
                 Chats.append(newChat);
+
             }
             
             self.tableView.reloadData();
@@ -90,7 +115,7 @@ class TableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        print("er zijn ",Chats.count," Chatn gevonden")
+        print("er zijn ",Chats.count," Chats gevonden")
         return Chats.count
     }
 

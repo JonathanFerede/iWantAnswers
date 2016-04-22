@@ -14,7 +14,8 @@ class DetailsViewController: UIViewController {
     var selectedChat: Chat?
     
     //Alle UI elementen
-    @IBOutlet weak var lbl_onderwerp: UILabel!
+    @IBOutlet weak var AlleBerichten: UITextView!
+    @IBOutlet weak var lbl_onderwerp: UITextView!
     
     override func viewDidLoad() {
         print("Detail view is geladen")
@@ -22,8 +23,20 @@ class DetailsViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //zet de juiste waarden in de labels wanneer de view geladen is
-        self.lbl_onderwerp.text = self.selectedChat?.onderwerp
-        print(self.selectedChat?.onderwerp       )
+        self.lbl_onderwerp.text = (self.selectedChat?.onderwerp)! + "  " + (self.selectedChat?.destruct)!
+        
+        var DeHeleChat = String()
+        
+        for berichtje in (self.selectedChat?.messages)!{
+            let sender = berichtje.sender + ": '"
+            let text = berichtje.text + "' \n"
+            let timestamp = berichtje.timestamp + "\n" + "\n"
+            
+            DeHeleChat += sender+text+timestamp
+            print(berichtje.text)
+        }
+        
+        self.AlleBerichten.text = DeHeleChat
     }
 
     override func didReceiveMemoryWarning() {

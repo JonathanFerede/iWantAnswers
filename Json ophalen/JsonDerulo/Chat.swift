@@ -8,14 +8,16 @@
 
 import Foundation
 
+var someInts = [Int]()
+
 class Chat{
     //properties and methods
     var onderwerp :String
     var destruct :String
-    var leden :AnyObject
-    var messages :AnyObject
+    var leden :[Contact]
+    var messages :[Message]
     
-    init(onderwerp:String, destruct:String, leden:AnyObject, messages:AnyObject){
+    init(onderwerp:String, destruct:String, leden:[Contact], messages:[Message]){
         self.onderwerp = onderwerp
         self.destruct = destruct
         self.leden = leden
